@@ -1,5 +1,11 @@
 public class hello{
     public static void main(string[]args) {
-        system.out.printin("vs code is awesome");
+        system.out.println("vs code is awesome");
+
+        greeting("kazolhabib")
+    }
+
+    public static void greeting(string name){
+        system.out.println("wekcome" +name);
     }
 }
